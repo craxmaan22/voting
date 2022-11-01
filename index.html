@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>voting</title>
+</head>
+<body>
+  <div>
+    <form>
+      <label for="age">We need to verify that you are over 18 years of age before you vote. What is your age?</label>
+      <input id="age" type="number">
+      <button type="submit">Submit!</button>
+    </form>
+    
+    <div id="voting" class="hidden">
+      <h1>voting menu</h1>
+      <ol>
+        <li>
+          <a href="https://www.usa.gov/register-to-vote">Register To Vote
+        </li>
+        <li>
+          <a href="https://www.vote.org/polling-place-locator/">Find Your Nearest Poll
+        </li>
+        <li>
+          <a href="https://ballotpedia.org/Elections_calendar">Elections Calendar
+        </li>        
+      </ol>
+    </div>
+
+    <div id="under-18" class="hidden">
+      <h1>Sorry, you can't vote you're too young.</h1>
+      <ol>
+        <li>
+          <a href="https://www.kidsvotingusa.org/">Kids Voting!
+        </li>
+        <li>
+          <a href="https://www.rockthevote.org/">Rock The Vote
+        </li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
